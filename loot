@@ -1,4 +1,4 @@
-meta { name = "Work In Progress"; description = "WIP"; }
+meta { name = "Loot"; description = "Loot Filter"; }
 
 /*@ define:module:global_defaults
 ---
@@ -203,7 +203,7 @@ label: Tier 1 custom style
 group: Tier 1
 exampleItem: Helm of neitiznot
 */
-#define VAR_VALUES_TIER_1_CUSTOMSTYLE textColor = "#ff00ff12";textAccentColor = "#FF000000";menuTextColor = "#ff00ff12";textAccent = 4;fontType = 2;showLootbeam = false;showDespawn = true;
+#define VAR_VALUES_TIER_1_CUSTOMSTYLE textColor = "#ff00ff12";textAccentColor = "#FF000000";menuTextColor = "#ff00ff12";textAccent = 1;fontType = 2;showLootbeam = false;showDespawn = true;
 
 /*@ define:input:item_tiers
 type: style
@@ -227,7 +227,7 @@ label: Tier 4 custom style
 group: Tier 4
 exampleItem: Twisted bow
 */
-#define VAR_VALUES_TIER_4_CUSTOMSTYLE textColor = "#ffff0000";backgroundColor = "#78000000";borderColor = "#ffff0000";textAccentColor = "#FF000000";lootbeamColor = "#ffff0000";menuTextColor = "#ffff0000";textAccent = 4;fontType = 3;showLootbeam = true;showDespawn = true;highlightTile = true;
+#define VAR_VALUES_TIER_4_CUSTOMSTYLE textColor = "#ffff0000";backgroundColor = "#78000000";borderColor = "#ffff0000";textAccentColor = "#FF000000";lootbeamColor = "#ffff0000";menuTextColor = "#ffff0000";textAccent = 4;fontType = 3;showLootbeam = true;showValue = false;showDespawn = true;highlightTile = true;
 
 
 /*@ define:input:item_tiers
